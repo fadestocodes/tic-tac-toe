@@ -26,10 +26,21 @@
   display: grid ;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  
+  border: black solid 1px;
+  width: 50vw;
+  height: 50vh;
 }
 
 .cell-container{
+  border: pink solid 1px;
+  cursor: pointer;
 
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-container:hover{
+  background-color: antiquewhite;
+
 }
